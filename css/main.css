@@ -12,7 +12,7 @@
         }
 
         body {
-            background-color: #0A0A0A;
+            background-color: #618370;
             color: #FFFFFF;
             line-height: 1.6;
             overflow-x: hidden;
@@ -20,10 +20,10 @@
 
         /* Цветовая схема */
         :root {
-            --black: #0A0A0A;
+            --black: #000000;
             --black-light: #141414;
-            --white: #FFFFFF;
-            --green: #477054;
+            --white: #ffffff;
+            --green: #000000;
             --green-glow: #456455;
             --pink: #5b3e4c;
             --pink-dark: #692f53;
@@ -63,17 +63,16 @@
 
         /* Навигация */
         header {
-            background-color: var(--black);
             padding: 1.5rem 5%;
             position: sticky;
             top: 0;
             z-index: 100;
-            border-bottom: 1px solid var(--gray);
+            border-bottom: 1px solid #5b3e4c;
             display: flex;
             justify-content: space-between;
             align-items: center;
             backdrop-filter: blur(10px);
-            background-color: rgba(10, 10, 10, 0.9);
+            background-color: #5b3e4c;
         }
 
         .logo {
@@ -136,7 +135,7 @@
         .menu-toggle span {
             width: 25px;
             height: 3px;
-            background: var(--pink);
+            background: #618370;
             margin: 2px 0;
             transition: 0.3s;
         }
@@ -202,7 +201,7 @@
         }
 
         .card {
-            background: var(--black-light);
+            background: rgb(0, 0, 0);
             border-radius: 20px;
             padding: 2rem;
             transition: all 0.3s;
@@ -221,7 +220,7 @@
         }
 
         .card.green {
-            background: var(--green);
+            background: #27533a;
             color: var(--black);
         }
 
@@ -231,8 +230,8 @@
         }
 
         .card.black {
-            background: var(--black);
-            border: 2px solid var(--pink);
+            background: rgb(99, 99, 99);
+            border: 2px solid rgb(80, 80, 80);
         }
 
         .card-icon {
@@ -326,7 +325,7 @@
 
         .timeline-content {
             width: 45%;
-            background: var(--black-light);
+            background: #495e52;
             padding: 1.5rem;
             border-radius: 15px;
             border: 1px solid var(--gray);
@@ -368,7 +367,7 @@
         }
 
         .scientist-card {
-            background: var(--black-light);
+            background: rgb(42, 85, 62);
             border-radius: 20px;
             overflow: hidden;
             transition: 0.3s;
@@ -382,7 +381,7 @@
 
         .scientist-header {
             height: 100px;
-            background: linear-gradient(135deg, var(--pink), var(--green));
+            background: linear-gradient(135deg, var(--pink), rgb(144, 174, 144));
             position: relative;
         }
 
@@ -410,7 +409,8 @@
         .scientist-name {
             font-size: 1.3rem;
             margin-bottom: 0.5rem;
-            color: var(--green);
+            color: rgb(3, 45, 24);
+            font-weight: bold;
         }
 
         .scientist-quote {
@@ -428,7 +428,7 @@
         }
 
         .tech-item {
-            background: var(--black-light);
+            background:  rgb(42, 85, 62);
             border-radius: 15px;
             padding: 2rem;
             border: 1px solid var(--gray);
@@ -448,7 +448,7 @@
         .tech-title {
             font-size: 1.3rem;
             margin-bottom: 0.5rem;
-            color: var(--pink);
+            color:  rgb(3, 45, 24);
         }
 
         /* Профессии */
@@ -459,7 +459,7 @@
         }
 
         .profession-item {
-            background: var(--black-light);
+            background: rgb(42, 85, 62);
             border-radius: 12px;
             padding: 1.5rem;
             display: flex;
@@ -481,7 +481,7 @@
         }
 
         .profession-salary {
-            color: var(--green);
+            color: rgb(172, 225, 196);;
             font-weight: 600;
         }
 
@@ -526,7 +526,7 @@
 
         /* Футер */
         footer {
-            background: var(--black);
+            background: #5b3e4c;
             border-top: 1px solid var(--gray);
             padding: 3rem 5% 1.5rem;
             margin-top: 4rem;
@@ -544,13 +544,13 @@
             font-size: 1.5rem;
             font-weight: 700;
             margin-bottom: 1rem;
-            background: linear-gradient(135deg, var(--green), var(--pink));
+            background: linear-gradient(135deg, white, rgb(48, 104, 48));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
         .footer-quote {
-            color: var(--green);
+            color: rgb(114, 139, 114);
             font-style: italic;
             margin: 1.5rem 0;
         }
@@ -625,7 +625,7 @@
                 top: 100%;
                 left: 0;
                 right: 0;
-                background: var(--black);
+                background: #3e654f;
                 padding: 2rem;
                 flex-direction: column;
                 align-items: center;
